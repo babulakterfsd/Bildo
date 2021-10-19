@@ -1,0 +1,8 @@
+.userimg {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0px auto;
+}

@@ -1,0 +1,92 @@
+[
+   {
+      "id":1,
+      "name":"Weight Loss Minor",
+      "img":"https://i.ibb.co/khX5kYY/classes-1.jpg",
+      "duration":"14 hours / week",
+      "slug":"weight-loss",
+      "shortDesc":"The best approach for weight loss is reducing the number of calories you eat while increasing the number of calories",
+      "longDesc":"The best approach for weight loss is reducing the number of calories you eat while increasing the number of calories you burn through physical activityThe best approach for weight loss is reducing the number of calories you eat while increasing the number of calories you burn through physical activityThe best approach for weight loss is reducing the number of calories you eat while increasing the number of calories you burn through physical activityThe best approach for weight loss is reducing the number of calories you eat while increasing the number of calories you burn through physical activity",
+      "price":300
+   },
+   {
+      "id":2,
+      "name":"Slim Body Tunor",
+      "img":"https://i.ibb.co/Hrffxdp/classes-2.jpg",
+      "duration":"20 hours / week",
+      "slug":"slim-body",
+      "shortDesc":"The best approach for weight loss is reducing the number of calories you eat while increasing the number of calories",
+      "longDesc":"Slim tips are the handy ways to keep your body fit. From avoiding carbonated drinks to increase the intake of Omega 3, 6 and 9 Fatty AcidsSlim tips are the handy ways to keep your body fit. From avoiding carbonated drinks to increase the intake of Omega 3, 6 and 9 Fatty AcidsEver wanted to look leaner and fitter instantly to show off your well-toned body for a beach vacation, the New Year's eve party, a cousin's.Ever wanted to look leaner and fitter instantly to show off your well-toned body for a beach vacation, the New Year's eve party, a cousin's.",
+      "price":400
+   },
+   {
+      "id":3,
+      "name":"Deep Meditation",
+      "img":"https://i.ibb.co/vQKKqk9/classes-3.jpg",
+      "duration":"22 hours / week",
+      "slug":"deep-meditation",
+      "shortDesc":"The best approach for weight loss is reducing the number of calories you eat while increasing the number of calories",
+      "longDesc":"Basic mindfulness meditation is the practice of paying attention to the present moment with an accepting, nonjudgmental disposition. The goal isn't to stopBasic mindfulness meditation is the practice of paying attention to the present moment with an accepting, nonjudgmental disposition. The goal isn't to stopBasic mindfulness meditation is the practice of paying attention to the present moment with an accepting, nonjudgmental disposition. The goal isn't to stopBasic mindfulness meditation is the practice of paying attention to the",
+      "price":150
+   },
+   {
+      "id":4,
+      "name":"Body Strength Builder",
+      "img":"https://i.ibb.co/37KnwTY/classes-4.jpg",
+      "duration":"13 hours / week",
+      "slug":"body-strength",
+      "shortDesc":"The best approach for weight loss is reducing the number of calories you eat while increasing the number of calories",
+      "longDesc":"When it comes to muscle-strengthening exercise, focus on things like dumbbells, resistance bands, resistance machines, and bodyweight exercises such as push-ups, squats and lunges. ... “You really need to train your entire body, and you really need to challenge your muscles regardless of your routine,” said Dr. Schoenfeld.When it comes to muscle-strengthening exercise, focus on things like dumbbells, resistance bands, resistance machines, and bodyweight exercises such as push-ups, squats and lunges",
+      "price":300
+   },
+   {
+      "id":5,
+      "name":"Womens Fitness",
+      "img":"https://i.ibb.co/xSj7CsS/classes-5.jpg",
+      "duration":"18 hours / week",
+      "slug":"womens-fitness",
+      "shortDesc":"The best approach for weight loss is reducing the number of calories you eat while increasing the number of calories",
+      "longDesc":"Move now! A better me is approaching! Get fit with the BEST women workout - female fitness app! Sweat 7 mins a day to get a perfect bikini body!Move now!and you really need to challenge your muscles regardless of your routine,” said Dr. Schoenfeld.When it comes to muscle-strengthening exercise, focus on things like dumbbells, resistance bands, resistance machines, and bodyweight exercises such as push-ups,",
+      "price":500
+   },
+   {
+      "id":6,
+      "name":"Six Pack Builder",
+      "img":"https://i.ibb.co/khX5kYY/classes-1.jpg",
+      "duration":"24 hours / week",
+      "slug":"six-pack",
+      "shortDesc":"The best approach for weight loss is reducing the number of calories you eat while increasing the number of calories",
+      "longDesc":"Exercising the muscles that make up your abdomen can help increase muscle mass to achieve six-pack abs. Pair abdominal exercises with a healthyExercising the muscles that make up your abdomen can help increase muscle mass to achieve six-pack abs. Pair abdominal exercises with a healthyExercising the muscles that make up your abdomen can help increase muscle mass to achieve six-pack abs. Pair abdominal exercises with a healthyExercising the muscles that make up your abdomen can help increase muscle mass to achieve six-pack abs. Pair abdominal exercises with a healthy",
+      "price":800
+   },
+   {
+      "id":7,
+      "name":"Weight Lifter",
+      "img":"https://i.ibb.co/Hrffxdp/classes-2.jpg",
+      "duration":"15 hours / week",
+      "slug":"weight-lifter",
+      "shortDesc":"The best approach for weight loss is reducing the number of calories you eat while increasing the number of calories",
+      "longDesc":"Weight training is also known as resistance or strength training. It involves moving parts of your body against some kind of resistance, like weightsWeight training is also known as resistance or strength training. It involves moving parts of your body against some kind of resistance, like weightsWeight training is also known as resistance or strength training. It involves moving parts of your body against some kind of resistance, like weights",
+      "price":200
+   },
+   {
+      "id":8,
+      "name":"Sound Shape Builder",
+      "img":"https://i.ibb.co/Mkt17pn/classes-8.jpg",
+      "duration":"19 hours / week",
+      "slug":"sound-shape",
+      "shortDesc":"The best approach for weight loss is reducing the number of calories you eat while increasing the number of calories",
+      "longDesc":"Human body shape is a complex phenomenon with sophisticated detail and function. The general shape or figure of a person is defined mainly by the molding ofHuman body shape is a complex phenomenon with sophisticated detail and function. The general shape or figure of a person is defined mainly by the molding ofHuman body shape is a complex phenomenon with sophisticated detail and function. The general shape or figure of a person is defined mainly by the molding of",
+      "price":300
+   },
+   {
+      "id":9,
+      "name":"Muscle Builder",
+      "img":"https://i.ibb.co/xSj7CsS/classes-5.jpg",
+      "duration":"7 hours / week",
+      "slug":"muscle-builder",
+      "shortDesc":"The best approach for weight loss is reducing the number of calories you eat while increasing the number of calories",
+      "longDesc":"Muscle Builder PM is a complete nighttime recovery and musclebuilding product. This powerful formula features multiple clinically studied ingredients shown Muscle Builder PM is a complete nighttime recovery and musclebuilding product. This powerful formula features multiple clinically studied ingredients shown ",
+      "price":600
+   }
+]
