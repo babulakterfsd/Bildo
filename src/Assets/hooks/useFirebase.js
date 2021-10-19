@@ -47,6 +47,7 @@ const useFirebase = () => {
   const register = (email, password) => {
     if (userPassword.length < 8) {
       setResponse('password should be at least 8 character')
+      return createUserWithEmailAndPassword(auth, email, password)
     } else {
       setResponse('')
       return createUserWithEmailAndPassword(auth, email, password)

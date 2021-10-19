@@ -15,19 +15,20 @@ const Register = () => {
     handleEmail,
     handleName,
     handlePassword,
-    register, userEmail, userPassword, response, setUser, setResponse, updateUser } = useAuth();
+    register, userEmail, userPassword, setUser, setResponse, updateUser, response} = useAuth();
+
+    
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    console.log(register);
     register(userEmail, userPassword)
       .then((result) => {
         const user = result.user;
         setUser(user)
         setResponse("Registration Successful");
         updateUser();
-        setTimeout(() => {
           history.push(redirect);
-        }, 5000)
       })
       .catch((error) => {
         setResponse(error.message);
@@ -78,7 +79,7 @@ const Register = () => {
                     className="form-control border-0 shadow-none py-2 mt-2 mb-4"
                     style={{ background: "#F8F8F8" }}
                   />
-                  
+                  <p className="text-white fw-semi-bold">{response}</p>
                   <Button
                     type="submit"
                     className="btn-light-green p-3 fw-bold btn-block w-100 shadow-none"
