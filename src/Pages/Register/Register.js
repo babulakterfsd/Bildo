@@ -15,7 +15,7 @@ const Register = () => {
     handleEmail,
     handleName,
     handlePassword,
-    register, userEmail, userPassword, response, error, setUser, setResponse, updateUser } = useAuth();
+    register, userEmail, userPassword, response, setUser, setResponse, updateUser } = useAuth();
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -78,16 +78,7 @@ const Register = () => {
                     className="form-control border-0 shadow-none py-2 mt-2 mb-4"
                     style={{ background: "#F8F8F8" }}
                   />
-
-                  {
-                    response &&
-                    <p className="text-white fw-semi-bold">{response}</p>
-
-                  }
-                  {
-                    error &&
-                    <p className="text-white fw-semi-bold">{error}</p>
-                  }
+                  
                   <Button
                     type="submit"
                     className="btn-light-green p-3 fw-bold btn-block w-100 shadow-none"

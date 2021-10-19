@@ -5,7 +5,7 @@ import useAuth from "../../Assets/hooks/useAuth";
 import "./login.css";
 
 const Login = () => {
-  const { signInUsingGoogle, setIsLoading, userEmail, userPassword, login, handleEmail, handlePassword, response, error } = useAuth();
+  const { signInUsingGoogle, setIsLoading, userEmail, userPassword, login, handleEmail, handlePassword, response, setResponse } = useAuth();
   const history = useHistory();
   const location = useLocation();
   const redirect_uri = location.state?.from || "/";
@@ -16,7 +16,7 @@ const Login = () => {
       .then(() => {
         history.push(redirect_uri);
       })
-      .catch((error) => console.log(error.message))
+      .catch((error) => setResponse(error.message))
       .finally(() => setIsLoading(false));
   };
 
@@ -59,14 +59,7 @@ const Login = () => {
                     className="form-control border-0 shadow-none py-2 mt-2 mb-4"
                     style={{ background: "#F8F8F8" }}
                   />
-                  {
-                    response &&
-                    <p className="text-white fw-semi-bold">{response}</p>
-                  }
-                  {
-                    error &&
-                    <p className="text-white fw-semi-bold">{error}</p>
-                  }
+               
                   <Button
                     type="submit"
                     className="btn-light-green p-3 fw-bold btn-block w-100 shadow-none"

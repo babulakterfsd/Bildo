@@ -21,7 +21,6 @@ const useFirebase = () => {
   const [name, setName] = useState("");
   const [userEmail, setUserEmail] = useState("");
   const [userPassword, setUserPassword] = useState("");
-  const [error, setError] = useState("");
   let [response, setResponse] = useState("");
 
   //handle email signup and login
@@ -47,10 +46,9 @@ const useFirebase = () => {
   //create new user
   const register = (email, password) => {
     if (userPassword.length < 8) {
-      setError("password must be at least 8 characters");
-      return;
+      setResponse('password should be at least 8 character')
     } else {
-      setError("");
+      setResponse('')
       return createUserWithEmailAndPassword(auth, email, password)
     }
   };
@@ -61,6 +59,7 @@ const useFirebase = () => {
         const user = result.user;
         setUser(user)
         setResponse("Login Successful");
+        setResponse('')
       })
       .catch((error) => {
         setResponse(error.message);
@@ -114,7 +113,6 @@ const useFirebase = () => {
     userEmail,
     userPassword,
     response,
-    error,
     setUser,
     setResponse,
     updateUser

@@ -88,7 +88,7 @@ const Header = () => {
                     />
                   }
                   <span className="text-muted fw-bold mx-md-2 me-2">
-                    {user?.displayName}
+                    {user?.email?.split('@')[0]}
                   </span>
                   <Link to="/login" className="text-decoration-none">
                     <Button
