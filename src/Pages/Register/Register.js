@@ -29,6 +29,7 @@ const Register = () => {
         setResponse("Registration Successful");
         updateUser();
           history.push(redirect);
+          setResponse('')
       })
       .catch((error) => {
         setResponse(error.message);

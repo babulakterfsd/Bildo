@@ -45,11 +45,11 @@ const useFirebase = () => {
   };
   //create new user
   const register = (email, password) => {
-    if (userPassword.length < 8) {
-      setResponse('password should be at least 8 character')
+    if (userPassword.length < 6) {
+      setResponse('Password is Less than 6 character, update it!')
       return createUserWithEmailAndPassword(auth, email, password)
     } else {
-      setResponse('')
+      setResponse('account created successfully !')
       return createUserWithEmailAndPassword(auth, email, password)
     }
   };
