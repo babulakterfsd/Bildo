@@ -14,7 +14,7 @@ const Banner = () => {
               style={{ minHeight: "100vh" }}
             >
               <div>
-                <h1 className="text-white display-1 fw-bolder px-2 mb-4">
+                <h1 className="text-white display-1 fw-bolder px-2 mb-4 pt-3 pt-md-0">
                   Don’t be a brat, burn that fat! Build Yourself.
                 </h1>
                 <p className="text-white px-2">

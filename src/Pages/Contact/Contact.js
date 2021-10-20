@@ -36,7 +36,7 @@ const Contact = () => {
               <Form>
                 <Row>
                   <div className="col-12 col-md-6">
-                    <label htmlFor="name" className="text-muted fw-semi-bold">
+                    <label htmlFor="name" className="text-muted fw-semi-bold mt-5 mt-md-0">
                       Name
                     </label>
                     <input
