@@ -5,7 +5,7 @@ import useAuth from "../../Assets/hooks/useAuth";
 import "./login.css";
 
 const Login = () => {
-  const { signInUsingGoogle, setIsLoading, userEmail, userPassword, login, handleEmail, handlePassword, response, setResponse } = useAuth();
+  const {auth, signInUsingGoogle, setIsLoading, userEmail, userPassword,setUser, signInWithEmailAndPassword, handleEmail, handlePassword, response, setResponse } = useAuth();
   const history = useHistory();
   const location = useLocation();
   const redirect_uri = location.state?.from || "/";
@@ -23,7 +23,18 @@ const Login = () => {
   //handle email login
   const handleEmailLogin = (event) => {
     event.preventDefault();
-    login(userEmail, userPassword)
+    // login(userEmail, userPassword)
+    signInWithEmailAndPassword(auth, userEmail, userPassword)
+      .then((result) => {
+        const user = result.user;
+        setUser(user)
+        setResponse("Login Successful");
+        history.push(redirect_uri);
+        setResponse('')
+      })
+      .catch((error) => {
+        setResponse(error.message);
+      });
   }
 
   return (
@@ -59,7 +70,9 @@ const Login = () => {
                     className="form-control border-0 shadow-none py-2 mt-2 mb-4"
                     style={{ background: "#F8F8F8" }}
                   />
-                
+                {
+                  <p className="text-white fw-semi-bold">{response}</p>
+                }
                   <Button
                     type="submit"
                     className="btn-light-green p-3 fw-bold btn-block w-100 shadow-none"

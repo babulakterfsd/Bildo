@@ -20,7 +20,7 @@ const About = () => {
               </span>
             </h3>
           </Row>
-          <Row clssName="my-5">
+          <Row className="my-5">
             <div className="col-12 col-md-6 col-lg-3">
               <i className="fas fa-thumbs-up text-light-green fa-2x"></i>
               <h4 className="abril-font mt-3 mb-1">Lots Of Equipments</h4>
