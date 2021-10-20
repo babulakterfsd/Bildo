@@ -24,11 +24,13 @@ const Banner = () => {
                   gym also gives us mental benefits which helps us think and
                   function better in our everyday lives.
                 </p>
-                <Link to="/allpackages" className="pb-3 pb-md-0">
+                <div className="pb-3 pb-md-0">
+                <Link to="/allpackages">
                   <Button className="btn-light-green p-3 ms-3 ms-lg-0 text-white fw-bold">
                     See Our Packages
                   </Button>
                 </Link>
+                </div>
               </div>
             </div>
           </div>
