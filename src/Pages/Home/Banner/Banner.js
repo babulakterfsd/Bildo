@@ -14,7 +14,7 @@ const Banner = () => {
               style={{ minHeight: "100vh" }}
             >
               <div>
-                <h1 className="text-white display-1 fw-bolder px-2 mb-4 pt-3 pt-md-0">
+                <h1 className="text-white display-1 fw-bolder px-2 mb-4 pt-4 pt-md-0">
                   Don’t be a brat, burn that fat! Build Yourself.
                 </h1>
                 <p className="text-white px-2">
@@ -24,7 +24,7 @@ const Banner = () => {
                   gym also gives us mental benefits which helps us think and
                   function better in our everyday lives.
                 </p>
-                <Link to="/allpackages">
+                <Link to="/allpackages" className="pb-3 pb-md-0">
                   <Button className="btn-light-green p-3 ms-3 ms-lg-0 text-white fw-bold">
                     See Our Packages
                   </Button>
